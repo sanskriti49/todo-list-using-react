@@ -31,7 +31,7 @@ export default function InputBox({
 
 				<img
 					className="plus"
-					src="src/plus.png"
+					src="public/plus.png"
 					alt="Add task"
 					onClick={handleSubmit}
 				/>
