@@ -1,3 +1,6 @@
+import penIcon from "src/pen1.png";
+import deleteIcon from "src/delete.png";
+
 export default function TaskItem({
 	task,
 	isEditingTask,
@@ -7,6 +10,7 @@ export default function TaskItem({
 	setEditedTask,
 	editedDate,
 	setEditedDate,
+	setAlertType,
 	markTaskCompleted,
 	setEditingTaskId,
 }) {
@@ -67,7 +71,8 @@ export default function TaskItem({
 							<button onClick={() => handleEdit(task)}>
 								<img
 									className="edit"
-									src="src/pen1.png"
+									// src="src/pen1.png"
+									src={penIcon}
 									alt="edit"
 									style={{ width: 52, height: 52, padding: 3 }}
 								/>
@@ -81,7 +86,8 @@ export default function TaskItem({
 								{" "}
 								<img
 									className="delete"
-									src="src/delete.png"
+									// src="src/delete.png"
+									src={deleteIcon}
 									alt="delete"
 									style={{ width: 25, height: 28 }}
 								/>

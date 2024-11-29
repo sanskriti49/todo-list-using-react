@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "todo-list-using-react",
+			"path": ".."
+		},
+		{
+			"name": "todo-list",
+			"path": "../../../../Downloads/React demo/todo-list"
+		}
+	],
+	"settings": {}
+}

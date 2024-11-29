@@ -47,6 +47,7 @@ export default function TaskList({
 				<TaskItem
 					key={task.id}
 					task={task}
+					setAlertType={setAlertType}
 					isEditingTask={editingTaskId === task.id}
 					handleEdit={handleEdit}
 					handleSave={handleSave}
