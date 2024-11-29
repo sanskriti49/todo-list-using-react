@@ -68,7 +68,7 @@ export default function TaskItem({
 							<button onClick={() => handleEdit(task)}>
 								<img
 									className="edit"
-									src="/pen1.png"
+									src="public/pen1.png"
 									alt="edit"
 									style={{ width: 52, height: 52, padding: 3 }}
 								/>
@@ -81,7 +81,7 @@ export default function TaskItem({
 							>
 								<img
 									className="delete"
-									src="/delete.png"
+									src="public/delete.png"
 									alt="delete"
 									style={{ width: 25, height: 28 }}
 								/>

@@ -3,7 +3,7 @@ export default function Header() {
 		<>
 			<div className="header">
 				<p className="heading">ToDo List</p>
-				<img src="/sketchbook.png" className="nb" alt="pic" />
+				<img src="public/sketchbook.png" className="nb" alt="pic" />
 			</div>
 		</>
 	);
