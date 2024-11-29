@@ -1,6 +1,3 @@
-// import { useState } from "react";
-import plusIcon from "src/plus.png";
-
 export default function InputBox({
 	inputTask,
 	setInputTask,
@@ -34,8 +31,7 @@ export default function InputBox({
 
 				<img
 					className="plus"
-					// src="src/plus.png"
-					src={plusIcon}
+					src="src/plus.png"
 					alt="Add task"
 					onClick={handleSubmit}
 				/>

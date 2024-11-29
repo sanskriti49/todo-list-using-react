@@ -5,8 +5,8 @@ export default function Alerts({ alertType, closeAlert }) {
 		if (alertType) {
 			const timer = setTimeout(() => {
 				closeAlert();
-			}, 1500); // Alert disappears after 3 seconds
-			return () => clearTimeout(timer); // Clear the timeout on component unmount
+			}, 1500); // alert disappears after 3 seconds
+			return () => clearTimeout(timer); // clear the timeout on component unmount
 		}
 	}, [alertType, closeAlert]);
 	return (

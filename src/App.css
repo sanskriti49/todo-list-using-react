@@ -16,7 +16,6 @@ body {
 	padding: 60px 0;
 }
 
-/* Style for the content box */
 .container {
 	background-color: white;
 	width: 100%;
@@ -59,9 +58,8 @@ body {
 	padding: 10px;
 }
 
-/* Adjust date and text input alignment */
 input[type="text"] {
-	width: 65%; /* Adjust width for better alignment */
+	width: 65%;
 	flex-grow: 1;
 	background: transparent;
 	border: none;
@@ -72,11 +70,11 @@ input[type="text"] {
 }
 
 input[type="date"] {
-	width: 30%; /* Smaller width for date */
+	width: 30%;
 	background-color: transparent;
 	border: none;
 	margin-right: 10px;
-	text-align: center; /* Center the date input */
+	text-align: center;
 }
 ul.list-items {
 	padding: 0;
@@ -144,7 +142,6 @@ button.edit img {
 	color: black;
 }
 
-/* Clear button */
 .clear {
 	background-color: limegreen;
 	width: 100px;
@@ -159,19 +156,8 @@ button.edit img {
 	position: relative;
 	left: 39%;
 }
-/* Small devices such as large phones (640px and up) */
-@media only screen and (max-width: 768px) {
-	/* .input-box {
-      display: flex;
-      justify-content: space-between;
-      align-items: center; 
-      background: #edeef0;
-      border-radius: 30px;
-      margin-bottom: 25px;
-      padding: 10px;
-  }
-   */
 
+@media only screen and (max-width: 768px) {
 	input[type="text"] {
 		width: 55%;
 		/* text-wrap: nowrap; */
@@ -183,41 +169,19 @@ button.edit img {
 		font-size: 16px;
 	}
 	input[type="date"] {
-		width: 35%; /* Smaller width for date */
+		width: 35%;
 		background-color: transparent;
 		font-size: 10px;
 		border: none;
 		margin-right: 10px;
 		font-size: 13px;
-		text-align: center; /* Center the date input */
+		text-align: center;
 	}
 	.plus {
 		height: 35px;
 		cursor: pointer;
 	}
 }
-
-/* Medium devices such as tablets (768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
-
-/* Alert styles */
-/* .alert {
-	display: none;
-	padding: 10px;
-	border-radius: 0.5rem;
-	background-color: limegreen;
-	color: white;
-	margin-bottom: 15px;
-	position: absolute;
-	top: 10px;
-	left: 50%;
-	transform: translateX(-50%);
-	transition: opacity 0.6s;
-} */
-
-/* .alert.show {
-	display: block;
-} */
 
 .closebtn {
 	float: right;
@@ -243,7 +207,6 @@ button.edit img {
 	font-weight: 600;
 }
 .success {
-	/* background-color: #d4edda; */
 	background-color: rgb(8, 202, 8);
 	color: #ffffff;
 }

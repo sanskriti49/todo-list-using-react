@@ -13,7 +13,7 @@ export default function TaskList({
 	const [editedDate, setEditedDate] = useState("");
 
 	const handleEdit = (task) => {
-		setEditingTaskId(task.id); // Set the task ID for editing
+		setEditingTaskId(task.id);
 		setEditedTask(task.title);
 		setEditedDate(task.date || "");
 	};
